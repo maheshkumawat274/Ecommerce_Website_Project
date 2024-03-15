@@ -1,0 +1,13 @@
+.textsize{
+  font-size: 70px;
+}
+@media (min-width:450px) and (max-width:530px) {
+  .textsize{
+    font-size: 50px;
+  }
+}
+@media (min-width:767px) and (max-width:991px) {
+  .textsize{
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,38 @@
+.newletterinput{
+  border-radius:80px 0 0 80px;
+  color: #616161;
+  width: 300px;
+  padding: 10px 50px;
+}
+.newletterbtn{
+  border-radius: 80px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
+  padding: 10px 50px 10px 50px;
+}
+.newletter{
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+@media (min-width:420px) and (max-width:768px) {
+  .newletterinput{
+    width: 150px;
+  }
+  .newletterbtn{
+    padding: 10px 30px 10px 30px;
+  }
+}
+@media (min-width:350px) and (max-width:420px) {
+  .newletterinput{
+    width: 150px;
+  }
+  .newletterbtn{
+    padding: 5px 10px 5px 10px;
+  }
+  .newletterinput{
+    padding: 5px 10px;
+    width: 130px;
+  }
+}
